@@ -13,7 +13,7 @@ namespace RadianstoDegrees
             
             double rad = double.Parse(Console.ReadLine());
 
-            double deg = rad * 180 / Math.PI;
+            double deg = rad * 150 / Math.PI;
 
             Console.WriteLine(Math.Round(deg, 0));
         }
